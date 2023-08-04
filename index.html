@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SofarSounds</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container"
+    onmousedown="startPlayingSound()" 
+    onmouseup="stopPlayingSound()"
+    ontouchstart="startPlayingSound()" 
+    ontouchend="stopPlayingSound()"
+    onclick="playRandomSoundAndChangeImage()"
+  >
+    <img src="image1.png" id="game-image">
+  </div>
+  <audio id="sound1">
+    <source src="sound1.m4a" type="audio/mpeg">
+  </audio>
+  <audio id="sound2">
+    <source src="sound2.m4a" type="audio/mpeg">
+  </audio>
+  <audio id="sound3">
+    <source src="sound3.m4a" type="audio/mpeg">
+  </audio>
+	 <audio id="sound4">
+    <source src="sound4.m4a" type="audio/mpeg">
+  </audio>
+  <audio id="sound5">
+    <source src="sound5.m4a" type="audio/mpeg">
+  </audio>
+  <audio id="sound6">
+    <source src="sound6.m4a" type="audio/mpeg">
+  </audio>
+	 <audio id="sound7">
+    <source src="sound7.m4a" type="audio/mpeg">
+  </audio>
+  <audio id="sound8">
+    <source src="sound8.m4a" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
