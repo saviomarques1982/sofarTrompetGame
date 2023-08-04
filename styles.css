@@ -1,3 +1,4 @@
+/* CSS Geral */
 body {
   margin: 0;
   display: flex;
@@ -20,6 +21,16 @@ body {
 /* Impede o comportamento padrão de ampliar a imagem ao ser clicada no celular */
 img {
   touch-action: manipulation;
+}
+
+/* Impede a seleção de texto e a seleção de imagem nas imagens do jogo */
+.game-container img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 #game-image {
